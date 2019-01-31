@@ -9,7 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let names = ["Dawn", "Greg", "Phillip", "Lisa", "Hammond", "Schultz", "Charlie"]
 
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBAction func callButtonPressed(_ sender: UIButton) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     
     @IBAction func callButtonPressed(_ sender: UIButton) {
+        // pick a random number from 0 to lenth of array
+        let randNum = Int.random(in: 0..<names.count)
+        // display name from array
+        nameLabel.text = names[randNum]
         
     }
     
